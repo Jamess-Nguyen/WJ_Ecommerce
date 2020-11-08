@@ -1,0 +1,80 @@
+.itemBox{
+    display: flex;
+    width: 100%;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 800px;
+    background-color: #fafafa;
+    padding-top: 40px;
+}
+.itemWrapper{
+    display: flex;
+    background-color: #fafafa;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    height: 700px;
+    width: 100%;
+}
+
+.imageBox{
+    min-height: 700px;
+    min-width: 600px;
+    background-color: white;
+    transition: background-color 150ms linear;
+}
+
+#nike{
+    background-image: url(./clothing/nike.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.cover{
+    height: 700px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0)
+}
+
+.cover:hover {
+    transition: background-color 150ms linear;
+    height: 700px;
+    min-width: 100%;
+    background-color: rgba(255, 255, 255, .1) ;
+}
+
+#RSG{
+    background-image: url(./clothing/RSG.JPG);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rsgBox{
+    min-height: 700px;
+    min-width: 80%;
+    background-color: white;
+    transition: background-color 150ms linear;
+}
+
+.background{
+    height: 900px;
+    width: 100%;
+    background-color: #fafafa;
+
+}
+@media screen and (max-width: 600px){
+    .itemWrapper{
+        display: block;
+        background-color: #fafafa;
+        justify-content: left;
+        align-items: center;
+        flex-direction: column;
+        height: 700px;
+        width: 100%;
+    }
+  }

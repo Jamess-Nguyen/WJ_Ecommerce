@@ -19,11 +19,12 @@
       align-items: center;
       padding: 0 2rem 0 2rem;
       justify-content: flex-end;
+      margin: 0px 60px;
     }
     
     .toolbar__logo {
       position: absolute;
-      left: 30px;
+      left: 90px;
       margin-left: 1rem;
       margin-bottom: 5px;
       align-items: flex-start;
