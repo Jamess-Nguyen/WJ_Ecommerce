@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/wj_ecommerce/static/css/main.ee91216d.chunk.css",
-    "main.js": "/wj_ecommerce/static/js/main.b53fd065.chunk.js",
-    "main.js.map": "/wj_ecommerce/static/js/main.b53fd065.chunk.js.map",
-    "runtime-main.js": "/wj_ecommerce/static/js/runtime-main.e1d7bbd1.js",
-    "runtime-main.js.map": "/wj_ecommerce/static/js/runtime-main.e1d7bbd1.js.map",
-    "static/js/2.6f79f895.chunk.js": "/wj_ecommerce/static/js/2.6f79f895.chunk.js",
-    "static/js/2.6f79f895.chunk.js.map": "/wj_ecommerce/static/js/2.6f79f895.chunk.js.map",
-    "static/js/3.90bb8d15.chunk.js": "/wj_ecommerce/static/js/3.90bb8d15.chunk.js",
-    "static/js/3.90bb8d15.chunk.js.map": "/wj_ecommerce/static/js/3.90bb8d15.chunk.js.map",
-    "index.html": "/wj_ecommerce/index.html",
-    "static/css/main.ee91216d.chunk.css.map": "/wj_ecommerce/static/css/main.ee91216d.chunk.css.map",
-    "static/js/2.6f79f895.chunk.js.LICENSE.txt": "/wj_ecommerce/static/js/2.6f79f895.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.841b2df1.chunk.css",
+    "main.js": "/static/js/main.f7887928.chunk.js",
+    "main.js.map": "/static/js/main.f7887928.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7ad57ac5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7ad57ac5.js.map",
+    "static/js/2.983a0e9c.chunk.js": "/static/js/2.983a0e9c.chunk.js",
+    "static/js/2.983a0e9c.chunk.js.map": "/static/js/2.983a0e9c.chunk.js.map",
+    "static/js/3.6836e123.chunk.js": "/static/js/3.6836e123.chunk.js",
+    "static/js/3.6836e123.chunk.js.map": "/static/js/3.6836e123.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.841b2df1.chunk.css.map": "/static/css/main.841b2df1.chunk.css.map",
+    "static/js/2.983a0e9c.chunk.js.LICENSE.txt": "/static/js/2.983a0e9c.chunk.js.LICENSE.txt",
+    "static/media/items.css": "/static/media/nike.95783946.jpg",
+    "static/media/checkoutsf.css": "/static/media/dummycheckout.a1702ba3.JPG",
+    "static/media/nikepage.css": "/static/media/nikeman.a430dbf1.jpg",
+    "static/media/rsgpage.css": "/static/media/rsgman.e93ab8e6.png",
+    "static/media/apage.css": "/static/media/vision.5cf792bd.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.e1d7bbd1.js",
-    "static/js/2.6f79f895.chunk.js",
-    "static/css/main.ee91216d.chunk.css",
-    "static/js/main.b53fd065.chunk.js"
+    "static/js/runtime-main.7ad57ac5.js",
+    "static/js/2.983a0e9c.chunk.js",
+    "static/css/main.841b2df1.chunk.css",
+    "static/js/main.f7887928.chunk.js"
   ]
 }
