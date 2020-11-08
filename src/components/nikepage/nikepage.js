@@ -6,6 +6,7 @@ const NikePage = (props) => (
         <div class="background">
         <div id="nikeman"></div>
         </div>
+        <div class="spacer"></div>
         <div class="background3">
             <p>Nike Sports Wear: $50</p>
         </div>
