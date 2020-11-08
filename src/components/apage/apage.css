@@ -1,0 +1,16 @@
+#vision{
+    margin-top: 150px;
+    height: 300px;
+    width: 900px;
+    background-image: url(./vision.JPG);
+    background-size: cover;
+}
+
+.background32{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 800px;
+    width: 100%;
+    background-color: white;
+}
