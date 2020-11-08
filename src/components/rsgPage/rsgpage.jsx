@@ -15,4 +15,13 @@ const RsgPage = (props) => (
     </div>
 );
 
+/*
+<div>
+    <p>You have {props.items} items</p>
+        <button onClick={() => props.insertCartItem("TEST")}>
+            Click me
+        </button>
+    </div>
+*/
+
 export default RsgPage;

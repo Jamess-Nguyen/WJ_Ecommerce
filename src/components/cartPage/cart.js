@@ -1,8 +1,11 @@
 import React from 'react';
 
-function cart() {
+function cart(props) {
     return(
-        <p>BEAN.</p>
+        <div>
+            <p>BEAN.</p>
+            <p>{props.items}</p>
+        </div>
     );
 }
 

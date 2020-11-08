@@ -1,8 +1,9 @@
 import React from 'react';
 import './nikepage.css';
 
-const NikePage = (props) => (
-    <div>
+function NikePage(props) {
+    return (
+        <div>
         <div class="background">
         <div id="nikeman"></div>
         </div>
@@ -13,8 +14,17 @@ const NikePage = (props) => (
         <div class="background2">
         <a><button className="bannerButton">Add To Cart</button></a>
         </div>
-
     </div>
-);
+    );
+}
+
+/*
+<div>
+<p>You have {props.items} items</p>
+    <button onClick={() => props.insertCartItem("TEST")}>
+        Click me
+    </button>
+</div>
+*/
 
 export default NikePage;
