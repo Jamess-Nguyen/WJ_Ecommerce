@@ -1,5 +1,5 @@
 import React from 'react';
-import Items from './shopItems/items.js'
+import Items from '../shopitems/items.js'
 const Shop = (props) => (
   <Items/>
 );

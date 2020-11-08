@@ -1,0 +1,54 @@
+.background{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+    background-color: #fafafa;
+}
+.p{
+    font-size: 30px;
+}
+.background2{
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+    width: 100%
+}
+.background3{
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+    width: 100%;
+}
+#rsgMan{
+    display: block;
+    height: 800px;
+    width: 900px;
+    background-image: url(./rsgman.png);
+    background-size: cover;
+}
+
+.bannerButton {
+    font-size: 40px;
+    border-radius: 60px ;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #D1373B;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.bannerButton:hover {
+    background-color: #2d2d2d;
+    color: white;
+}
+
