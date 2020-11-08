@@ -5,7 +5,6 @@ const Apage = (props) => (
     <div className="background32">
         <div id="vision"></div>
     </div>
-
 );
 
 export default Apage;

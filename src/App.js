@@ -6,6 +6,8 @@ import NikePage from './components/nikepage/nikepage.js';
 import Shop from './components/pages/shop.jsx';
 import RsgPage from './components/rsgPage/rsgpage.jsx';
 import Apage from './components/apage/apage.jsx';
+import Cpage from './components/checkout/checkout.jsx';
+
 function App() {
   return (
     <Router>
@@ -14,6 +16,7 @@ function App() {
           <Route path="/nike" component={NikePage}/>
           <Route path="/rsg" component={RsgPage}/>
           <Route path="/About" component={Apage}/>
+          <Route path="/Cart" component={Cpage}/>
           <Route path="/" component={Shop}/>
         </Switch>
     </Router>
