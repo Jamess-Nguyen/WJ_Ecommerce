@@ -6,6 +6,7 @@ import NikePage from './components/nikepage/nikepage.js';
 import Shop from './components/pages/shop.jsx';
 import RsgPage from './components/rsgPage/rsgpage.jsx';
 import Apage from './components/apage/apage.jsx';
+import Cpage from './components/checkout/checkout.jsx';
 import cart from "./components/cartPage/cart.js"
 
 class App extends React.Component {
@@ -33,10 +34,10 @@ class App extends React.Component {
         <Router>
           <NavBar />
             <Switch>
-              <Route path="/cart" component={cart} items={this.CurrentCart}/>
-              <Route path="/nike" component={NikePage} items={this.CurrentCart}/>
-              <Route path="/rsg" component={RsgPage} items={this.CurrentCart}/>
+              <Route path="/nike" component={NikePage}/>
+              <Route path="/rsg" component={RsgPage}/>
               <Route path="/About" component={Apage}/>
+              <Route path="/Cart" component={Cpage}/>
               <Route path="/" component={Shop}/>
             </Switch>
         </Router>

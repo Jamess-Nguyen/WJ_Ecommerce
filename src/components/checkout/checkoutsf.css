@@ -1,0 +1,16 @@
+
+.backgrounder{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 800px;
+    width: 100%;
+    background-color: white;
+}
+
+#checker{
+    height: 100%;
+    width: 80%;
+    background-image: url(./dummycheckout.JPG);
+    background-size: cover;
+}
